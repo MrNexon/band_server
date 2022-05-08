@@ -8,6 +8,7 @@ services:
         volumes:
             - "band_minecraft_server:/server"
         tty: true
+        stdin_open: true
 
 volumes:
   band_minecraft_server:
