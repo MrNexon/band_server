@@ -7,6 +7,7 @@ services:
             - "25565:25565"
         volumes:
             - "band_minecraft_server:/server"
+        tty: true
 
 volumes:
   band_minecraft_server:
